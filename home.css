@@ -1,0 +1,63 @@
+body {
+  background: url(./parts/lmback.png);
+  background-attachment:fixed;
+}
+
+.title img{
+  width: 60%;
+}
+
+a {
+  text-decoration:none;
+}
+
+.tab-area {
+  justify-content: space-around;
+  cursor: pointer;
+  width: 60%;
+}
+
+.tab-area img{
+  width: 40%;
+}
+
+.tab {
+  text-align: center;
+}
+
+.tab.active {
+  border: none;
+}
+
+.content.show{
+   display: block;
+}
+
+.content{
+   display: none;
+}
+
+textarea {
+  font-size: 16px;
+  resize: none;
+  width:70%;
+  height:120px;
+}
+
+.info-col {
+    display: inline-block;
+    width: 120px;
+}
+
+.btn {
+  border-radius: 5px;
+  background-color: black;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+.button{
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
